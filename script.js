@@ -2,7 +2,7 @@
 const CALENDAR_URL = "https://calendly.com/ceomihaipeia/30min";
 
 const calendarLinks = document.querySelectorAll("[data-calendar-link]");
-const isCalendarConfigured = !CALENDAR_URL.includes("NUMELE-TAU");
+const isCalendarConfigured = !CALENDAR_URL.includes("ceomihaipeia");
 
 calendarLinks.forEach((link) => {
   if (isCalendarConfigured) {
