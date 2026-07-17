@@ -1,5 +1,5 @@
 // ÎNLOCUIEȘTE valoarea de mai jos cu linkul tău real (Calendly, Google Calendar etc.)
-const CALENDAR_URL = "https://calendly.com/NUMELE-TAU/discutie";
+const CALENDAR_URL = "https://calendly.com/ceomihaipeia/30min";
 
 const calendarLinks = document.querySelectorAll("[data-calendar-link]");
 const isCalendarConfigured = !CALENDAR_URL.includes("NUMELE-TAU");
